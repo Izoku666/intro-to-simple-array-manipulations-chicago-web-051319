@@ -34,5 +34,15 @@ def using_uniq(array)
   return array.uniq
 end
 
-def flatten(array)
-  
+def using_flatten(array)
+  return array.flatten
+end
+
+def using_delete(array, string)
+  index = 0
+  for i in array
+    if i == string
+      array.delete(array[i])
+    end
+  end
+end
