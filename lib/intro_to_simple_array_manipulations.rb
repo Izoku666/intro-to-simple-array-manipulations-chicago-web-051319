@@ -39,10 +39,8 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  index = 0
-  for i in array
-    if i == string
-      array.delete(array[i])
-    end
-  end
+
 end
+
+def using_delete_at(array, int)
+  return 
